@@ -1,3 +1,9 @@
+<?php
+require_once('../global/ClassNavbar.php');
+$objeto = new NavBar();
+$navbar=$objeto->get_NavBarPublic();
+$footer=$objeto->get_Footer();
+ ?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -12,13 +18,9 @@
 <body>
 
   <header>
-
-    <nav>
-
-
-
-    </nav>
-
+    <?php
+    echo $navbar;
+    ?>
   </header>
 
   <main>
@@ -58,8 +60,25 @@
 
 
 
-  <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="../js/materialize.min.js"></script>
+
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+      M.AutoInit();
+      var elems = document.querySelectorAll('.dropdown-trigger');
+      var instances = M.Dropdown.init(elems);
+      var elems1 = document.querySelectorAll('.parallax');
+      var instances1 = M.Parallax.init(elems1);
+    });
+    $(document).ready(function() {
+
+      $('.sidenav').sidenav();
+      $('.dropdown-trigger').dropdown();
+      $('.slider').slider();
+    });
+  </script>
+
 </body>
 
 </html>

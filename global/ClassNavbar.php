@@ -13,11 +13,11 @@ class NavBar
   public function get_NavBarPublic(){
     $navbar='
     <ul id="dropdown1" class="dropdown-content">
-      <li><a href="./mision.php">Mision</a></li>
-      <li><a href="./vision.php">Vision</a></li>
-      <li><a href="./ideario.php">Ideario</a></li>
-      <li><a href="./autoridades.php">Autoridades</a></li>
-      <li><a href="./nuestro_patrono.php">Nuestro Patrono</a></li>
+      <li><a href="../pages/mision.php">Mision</a></li>
+      <li><a href="../pages/vision.php">Vision</a></li>
+      <li><a href="../pages/ideario.php">Ideario</a></li>
+      <li><a href="../pages/autoridades.php">Autoridades</a></li>
+      <li><a href="../pages/nuestro_patrono.php">Nuestro Patrono</a></li>
     </ul>
 
     <ul id="dropdown2" class="dropdown-content">
@@ -38,7 +38,7 @@ class NavBar
 
     <ul id="dropdown5" class="dropdown-content">
       <li><a href="#!">Contactenos</a></li>
-      <li><a href="./correoinstitucional.php">Correo Institucional</a></li>
+      <li><a href="../pages/correoinstitucional.php">Correo Institucional</a></li>
     </ul>
     <div class="navbar-fixed">
       <nav>
@@ -47,24 +47,24 @@ class NavBar
           <a href="#!" class="brand-logo"></a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="./index.php"><i class="material-icons left">home</i>Inicio</a></li>
+            <li><a href="../index.php"><i class="material-icons left">home</i>Inicio</a></li>
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons left">people</i>Nosotros<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown2"><i class="material-icons left">account_balance</i>Transparencia<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown3"><i class="material-icons left">date_range</i>Horarios<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown4"><i class="material-icons left">school</i>Informacion Institucional<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown5"><i class="material-icons left">contacts</i>Contactenos<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li><a href="../Registro_de_asistencias/index.html"><i class="material-icons left">home</i>Iniciar Sesión</a></li>
+            <li><a href="../Registro_de_asistencias/"><i class="material-icons left">home</i>Iniciar Sesión</a></li>
           </ul>
         </div>
       </nav>
     </div>
 
     <ul id="dropdown1a" class="dropdown-content">
-      <li><a href="./mision.php">Mision</a></li>
-      <li><a href="./vision.php">Vision</a></li>
-      <li><a href="./ideario.php">Ideario</a></li>
-      <li><a href="./autoridades.php">Autoridades</a></li>
-      <li><a href="./nuestro_patrono.php">Nuestro Patrono</a></li>
+      <li><a href="../pages/mision.php">Mision</a></li>
+      <li><a href="../pages/vision.php">Vision</a></li>
+      <li><a href="../pages/ideario.php">Ideario</a></li>
+      <li><a href="../pages/autoridades.php">Autoridades</a></li>
+      <li><a href="../pages/nuestro_patrono.php">Nuestro Patrono</a></li>
     </ul>
 
     <ul id="dropdown2a" class="dropdown-content">
@@ -95,7 +95,7 @@ class NavBar
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown3a"><i class="material-icons left">date_range</i>Horarios<i class="material-icons right">arrow_drop_down</i></a></li>
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown4a"><i class="material-icons left">school</i>Info. Institucional<i class="material-icons right">arrow_drop_down</i></a></li>
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown5a"><i class="material-icons left">contacts</i>Contactenos<i class="material-icons right">arrow_drop_down</i></a></li>
-      <li><a href="../Registro_de_asistencias/index.html"><i class="material-icons left">home</i>Iniciar Sesión</a></li>
+      <li><a href="./Registro_de_asistencias/"><i class="material-icons left">home</i>Iniciar Sesión</a></li>
     </ul>
 
     ';
@@ -145,6 +145,7 @@ class NavBar
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown3"><i class="material-icons left">date_range</i>Horarios<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown4"><i class="material-icons left">school</i>Informacion Institucional<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown5"><i class="material-icons left">contacts</i>Contactenos<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="./Registro_de_asistencias/"><i class="material-icons left">home</i>Iniciar Sesión</a></li>
           </ul>
         </div>
       </nav>
@@ -180,12 +181,13 @@ class NavBar
     </ul>
 
     <ul class="sidenav" id="mobile-demo">
-      <li><a href="../index.php"><i class="material-icons left">home</i>Inicio</a></li>
+      <li><a href="./index.php"><i class="material-icons left">home</i>Inicio</a></li>
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown1a"><i class="material-icons left">people</i>Nosotros<i class="material-icons right">arrow_drop_down</i></a></li>
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown2a"><i class="material-icons left">account_balance</i>Transparencia<i class="material-icons right">arrow_drop_down</i></a></li>
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown3a"><i class="material-icons left">date_range</i>Horarios<i class="material-icons right">arrow_drop_down</i></a></li>
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown4a"><i class="material-icons left">school</i>Info. Institucional<i class="material-icons right">arrow_drop_down</i></a></li>
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown5a"><i class="material-icons left">contacts</i>Contactenos<i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a href="./Registro_de_asistencias/"><i class="material-icons left">home</i>Iniciar Sesión</a></li>
     </ul>
 
     ';
