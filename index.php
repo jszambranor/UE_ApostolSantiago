@@ -20,11 +20,55 @@ $footer=$objeto->get_Footer();
 </head>
 
 <body>
+  <header>
+    <?php
+    echo $navbar;
+    ?>
+  </header>
 
-<?php
-echo $navbar;
-?>
 <main>
+
+  <div class="slider">
+<ul class="slides">
+  <li>
+    <img id="slider" src="./images/slider/img1.jpg"> <!-- random image -->
+    <div class="caption center-align">
+      <h3>This is our big Tagline!</h3>
+      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+    </div>
+  </li>
+  <li>
+    <img id="slider" src="./images/slider/img2.jpg"> <!-- random image -->
+    <div class="caption left-align">
+      <h3>Left Aligned Caption</h3>
+      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+    </div>
+  </li>
+  <li>
+    <img id="slider" src="./images/slider/img3.jpg"> <!-- random image -->
+    <div class="caption right-align">
+      <h3>Right Aligned Caption</h3>
+      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+    </div>
+  </li>
+  <li>
+    <img id="slider" src="./images/slider/img4.jpg"> <!-- random image -->
+    <div class="caption center-align">
+      <h3>This is our big Tagline!</h3>
+      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+    </div>
+  </li>
+  <li>
+    <img id="slider" src="./images/slider/img5.jpg"> <!-- random image -->
+    <div class="caption center-align">
+      <h3>This is our big Tagline!</h3>
+      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+    </div>
+  </li>
+</ul>
+</div>
+
+
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
@@ -75,7 +119,7 @@ echo $navbar;
             <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
             <h5 class="center"><b>MISION</b></h5>
 
-            <p class="light">La Unidad Educativa Apóstol Santiago, es una institución que ofrece a sus estudiantes, desde la etapa preescolar, hasta educación general básica una educación integral e inclusiva...</p>
+            <p class="header col s12 light">La Unidad Educativa Apóstol Santiago, es una institución que ofrece a sus estudiantes, desde la etapa preescolar, hasta educación general básica una educación integral e inclusiva...</p>
             <a href="./pages/vision.php">Ver mas...</a>
           </div>
         </div>
@@ -85,7 +129,7 @@ echo $navbar;
             <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
             <h5 class="center"><b>VISION</b></h5>
 
-            <p class="light">Para el año 2024, la Unidad Educativa Apóstol Santiago, será reconocida por la comunidad educativa, por su excelencia académica en la formación de...</p>
+            <p class="header col s12 light">Para el año 2024, la Unidad Educativa Apóstol Santiago, será reconocida por la comunidad educativa, por su excelencia académica en la formación de...</p>
             <a href="./pages/vision.php">Ver mas...</a>
           </div>
         </div>
@@ -95,7 +139,7 @@ echo $navbar;
             <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
             <h5 class="center"><b>IDEARIO</b></h5>
 
-            <p class="light">Aprendizaje permanente: La concepción de la educación como un aprendizaje permanente que se desarrolla a lo largo de toda la vida. Interaprendizaje y multiaprendizaje: Instrumentos para potenciar las capacidades humanas por medio de la cultura...</p>
+            <p class="header col s12 light">Aprendizaje permanente: La concepción de la educación como un aprendizaje permanente que se desarrolla a lo largo de toda la vida. Interaprendizaje y multiaprendizaje: Instrumentos para potenciar las capacidades humanas por medio de la cultura...</p>
             <a href="./pages/ideario.php">Ver mas...</a>
           </div>
         </div>
@@ -158,6 +202,7 @@ echo $navbar;
 
       $('.sidenav').sidenav();
       $('.dropdown-trigger').dropdown();
+      $('.slider').slider();
     });
   </script>
 
