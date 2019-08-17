@@ -47,7 +47,7 @@ class NavBar
           <a href="#!" class="brand-logo"></a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="../index.php"><i class="material-icons left">home</i>Inicio</a></li>
+            <li><a href="./index.php"><i class="material-icons left">home</i>Inicio</a></li>
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons left">people</i>Nosotros<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown2"><i class="material-icons left">account_balance</i>Transparencia<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown3"><i class="material-icons left">date_range</i>Horarios<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -89,7 +89,7 @@ class NavBar
     </ul>
 
     <ul class="sidenav" id="mobile-demo">
-      <li><a href="../index.php"><i class="material-icons left">home</i>Inicio</a></li>
+      <li><a href="./index.php"><i class="material-icons left">home</i>Inicio</a></li>
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown1a"><i class="material-icons left">people</i>Nosotros<i class="material-icons right">arrow_drop_down</i></a></li>
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown2a"><i class="material-icons left">account_balance</i>Transparencia<i class="material-icons right">arrow_drop_down</i></a></li>
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown3a"><i class="material-icons left">date_range</i>Horarios<i class="material-icons right">arrow_drop_down</i></a></li>
