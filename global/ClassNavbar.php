@@ -53,6 +53,7 @@ class NavBar
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown3"><i class="material-icons left">date_range</i>Horarios<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown4"><i class="material-icons left">school</i>Informacion Institucional<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown5"><i class="material-icons left">contacts</i>Contactenos<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="../index.php"><i class="material-icons left">home</i>Iniciar Sesión</a></li>
           </ul>
         </div>
       </nav>
@@ -94,6 +95,7 @@ class NavBar
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown3a"><i class="material-icons left">date_range</i>Horarios<i class="material-icons right">arrow_drop_down</i></a></li>
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown4a"><i class="material-icons left">school</i>Info. Institucional<i class="material-icons right">arrow_drop_down</i></a></li>
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown5a"><i class="material-icons left">contacts</i>Contactenos<i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a href="../index.php"><i class="material-icons left">home</i>Iniciar Sesión</a></li>
     </ul>
 
     ';
