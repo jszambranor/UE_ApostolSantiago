@@ -22,14 +22,13 @@ if (isset($_SESSION['USER_UEAS'])) {
     </head>
 
     <body>
-<nav>
+
         <div class="navbar-fixed">
           <div class="nav-wrapper">
-            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <a href="#" class="brand-logo center">INICIO</a>
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i>Menú</a>
           </div>
         </div>
-    </nav>
+
 
 
       <ul id="slide-out" class="sidenav">
@@ -40,11 +39,11 @@ if (isset($_SESSION['USER_UEAS'])) {
             </div>
             <a href="#user"><img class="circle" src=""></a>
             <a href="#name"><span class="white-text name"><?php if (isset($_SESSION['USER_UEAS'])) {
-       echo $conexion['NOMBRE'];
-   } ?></span></a>
+     echo $conexion['NOMBRE'];
+ } ?></span></a>
             <a href="#email"><span class="white-text email"><?php if (isset($_SESSION['USER_UEAS'])) {
-       echo $conexion['CORREO'];
-   }?></span></a>
+     echo $conexion['CORREO'];
+ }?></span></a>
           </div>
           <br>
         </li>
@@ -61,53 +60,43 @@ if (isset($_SESSION['USER_UEAS'])) {
 
       <main>
 
-        <div class="class="col s10" container-table">
-
-        <table class="highlight centered">
-        <thead>
-          <tr>
-              <th>CEDULA</th>
-              <th>NOMBRES</th>
-              <th>APELLIDOS</th>
-              <th>ASISTENCIA</th>
-              <th>CONFIRMAR</th>
-
-          </tr>
-        </thead>
-      </table>
-
-      <div class="row">
-    <form class="col s10">
-      <div class="row">
-        <div class="input-field col s2">
-          <input disabled id="first_name" type="text">
+        <div class="section container">
+          <div class="row card-panel">
+            <p><?php echo "NOMIDA DEL CURSO"." ".$curso; ?></p>
           </div>
-        <div class="input-field col s2">
-          <input disabled id="last_name" type="text">
         </div>
-        <div class="input-field col s2">
-          <input disabled value="" id="disabled" type="text">
-        </div>
-        <div class="input-field col s2">
-          <select>
-            <option value="" disabled selected>Choose your option</option>
-            <option value="1">ASISTENCIA</option>
-            <option value="2">ATRASO</option>
-            <option value="3">FALTA</option>
-          </select>
-        </div>
-        <div class="input-field col s2">
-        <button class="btn waves-effect waves-light" type="submit" name="action">CONFIRMAR
-          <i class="material-icons right">send</i>
-        </button>
-      </div>
-      </div>
 
-    </form>
-  </div>
-
+        <div class="section container">
+      <form class="col s16" action="../../controller/ClassControllerAsistencias.php">
+        <div class="row card-panel">
+          <div class="input-field col s2">
+            <input disabled id="cedula" name="cedula" type="text">
+            <label for="">CEDULA</label>
+          </div>
+          <div class="input-field col s3">
+            <input disabled value="" id="nombres" name="nombres" type="text">
+            <label for="">NOMBRES</label>
+          </div>
+          <div class="input-field col s3">
+            <input disabled value="" id="disabled" name="apellidos "type="text">
+            <label for="">APELLIDOS</label>
+          </div>
+          <div class="input-field col s2">
+            <select class="requiere" required id="estado" name="estado" id="estado">
+              <option value="" disabled selected>ESTADO</option>
+              <option value="1">ASISTENCIA</option>
+              <option value="2">ATRASO</option>
+              <option value="3">FALTA</option>
+            </select>
+          </div>
+          <div class="input-field col s2">
+          <button class="btn waves-effect waves-light" type="submit" name="registrar">REGISTRAR
+            <i class="material-icons right">send</i>
+          </button>
+        </div>
+        </div>
+      </form>
     </div>
-
       </main>
 
       <footer>
@@ -123,12 +112,22 @@ if (isset($_SESSION['USER_UEAS'])) {
             background-color: orange;
           }
 
-          .container-table{
+          .section,.container{
             width: 90%;
-            border-color: orange;
-            margin-top: 5%;
-            margin-left: auto;
-            margin-right: auto;
+          }
+
+          .navbar-fixed{
+            background-color: orange;
+            display: flex;
+            align-items: center;
+            font-size: 2rem;
+          }
+
+          .sidenav-trigger{
+            font-size: 2rem;
+            display: flex;
+            align-items: center;
+            color: white;
           }
         </style>
     </body>
