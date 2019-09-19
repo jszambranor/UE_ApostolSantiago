@@ -25,19 +25,19 @@ class NavBar
     </ul>
 
     <ul id="dropdown3" class="dropdown-content">
-      <li><a href="./dosificaciontareas.php">Horarios Dosificacion de Tareas</a></li>
-      <li><a href="./rubricas.php">Rubricas</a></li>
+      <li><a href="../pages/dosificaciontareas.php">Horarios Dosificacion de Tareas</a></li>
+      <li><a href="../pages/rubricas.php">Rubricas</a></li>
     </ul>
 
     <ul id="dropdown4" class="dropdown-content">
-      <li><a href="#!">Distributivo Docente</a></li>
+      <li><a href="../pages/distributivodocente.php">Distributivo Docente</a></li>
       <li><a href="#!">Atencion a Padres</a></li>
-      <li><a href="#!">Cronograma Anual</a></li>
+      <li><a href="../pages/cronogramaanual.php">Cronograma Anual</a></li>
       <li><a href="#!">Cronograma Mensual</a></li>
     </ul>
 
     <ul id="dropdown5" class="dropdown-content">
-      <li><a href="#!">Contactenos</a></li>
+      <li><a href="../pages/contactenos.php">Contactenos</a></li>
       <li><a href="../pages/correoinstitucional.php">Correo Institucional</a></li>
     </ul>
     <div class="navbar-fixed">
@@ -53,7 +53,7 @@ class NavBar
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown3"><i class="material-icons left">date_range</i>Horarios<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown4"><i class="material-icons left">school</i>Informacion Institucional<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown5"><i class="material-icons left">contacts</i>Contactenos<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li><a href="../Registro_de_asistencias/"><i class="material-icons left">home</i>Iniciar Sesión</a></li>
+            <li><a href="../sga/"><i class="material-icons left">home</i>Iniciar Sesión</a></li>
           </ul>
         </div>
       </nav>
@@ -77,25 +77,25 @@ class NavBar
     </ul>
 
     <ul id="dropdown4a" class="dropdown-content">
-      <li><a href="#!">Distributivo Docente</a></li>
+      <li><a href="../pages/distributivodocente.php">Distributivo Docente</a></li>
       <li><a href="#!">Atencion a Padres</a></li>
-      <li><a href="#!">Cronograma Anual</a></li>
+      <li><a href="../cronogramaanual.php">Cronograma Anual</a></li>
       <li><a href="#!">Cronograma Mensual</a></li>
     </ul>
 
     <ul id="dropdown5a" class="dropdown-content">
-      <li><a href="#!">Contactenos</a></li>
+      <li><a href="../pages/contactenos.php">Contactenos</a></li>
       <li><a href="#!">Correo Institucional</a></li>
     </ul>
 
     <ul class="sidenav" id="mobile-demo">
-      <li><a href="./index.php"><i class="material-icons left">home</i>Inicio</a></li>
+      <li><a href="../index.php"><i class="material-icons left">home</i>Inicio</a></li>
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown1a"><i class="material-icons left">people</i>Nosotros<i class="material-icons right">arrow_drop_down</i></a></li>
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown2a"><i class="material-icons left">account_balance</i>Transparencia<i class="material-icons right">arrow_drop_down</i></a></li>
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown3a"><i class="material-icons left">date_range</i>Horarios<i class="material-icons right">arrow_drop_down</i></a></li>
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown4a"><i class="material-icons left">school</i>Info. Institucional<i class="material-icons right">arrow_drop_down</i></a></li>
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown5a"><i class="material-icons left">contacts</i>Contactenos<i class="material-icons right">arrow_drop_down</i></a></li>
-      <li><a href="./Registro_de_asistencias/"><i class="material-icons left">home</i>Iniciar Sesión</a></li>
+      <li><a href="./sga/"><i class="material-icons left">home</i>Iniciar Sesión</a></li>
     </ul>
 
     ';
@@ -122,9 +122,9 @@ class NavBar
     </ul>
 
     <ul id="dropdown4" class="dropdown-content">
-      <li><a href="#!">Distributivo Docente</a></li>
+      <li><a href="./pages/distributivodocente.php">Distributivo Docente</a></li>
       <li><a href="#!">Atencion a Padres</a></li>
-      <li><a href="#!">Cronograma Anual</a></li>
+      <li><a href=".pages/cronogramaanual.php">Cronograma Anual</a></li>
       <li><a href="#!">Cronograma Mensual</a></li>
     </ul>
 
