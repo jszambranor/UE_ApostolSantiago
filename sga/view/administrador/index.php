@@ -61,7 +61,7 @@ if (isset($_SESSION['USER_UEAS'])) {
         <div class="divider"></div>
       </li>
       <li id="li_option"><a id="option2" class="subheader">Subheader</a></li>
-      <li><a id="option2" class="waves-effect" href="./reportes.php"><i class="material-icons">person</i>Agregar Estudiantes</a></li>
+      <li><a id="option2" class="waves-effect" href="./registro_personas.php"><i class="material-icons">person</i>Agregar Estudiantes</a></li>
       <li><a id="option2" class="waves-effect" href="./reportes.php"><i class="material-icons">assignment_turned_in</i>Reportes de Asistencias</a></li>
     </ul>
   </header>
